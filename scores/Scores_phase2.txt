@@ -1,0 +1,7 @@
+Item 2-2: 0 / 2 passed | score: 0
+Item 6: 0 / 6 passed | score: 0
+Item 7: 0 / 2 passed | score: 0.0
+Item 8: 0 / 2 passed | score: 0.0
+-----------------------------------------
+Phase 2: your score of coding section: 0.0  (part)
+-----------------------------------------
