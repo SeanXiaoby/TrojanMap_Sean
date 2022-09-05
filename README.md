@@ -1,15 +1,29 @@
 # EE538 Final Project - Summer 2022 - TrojanMap
 
-- Team members:
-   - <a href="xihangde@usc.edu">Xihang Deng</a>
+#### Author: [Boyang Xiao](https://www.linkedin.com/in/boyang-xiao-40b644225/)
+
+- **Email**:		<a href="mailto:boyangxi@usc.edu">boyangxi@usc.edu</a>
+- **Github**:	[here](https://github.com/SeanXiaoby)
+
+#### Dev Environment:
+
+- **OS:** MacOS 12.5.1 / Linux
+- **Compiler**: [Bazel 5.1.1](https://bazel.build/)
+- **Language:** [C++ 11](https://en.cppreference.com/w/cpp/11)
+
+#### Project Info:
+- **Team members:**
    - <a href="boyangxi@usc.edu">Boyang Xiao</a>
-- Video presentation: [here](https://youtu.be/X-evqedsNYc)
-- Project presentation slides: [here](https://docs.google.com/presentation/d/1Yb4q6vC9UH7xMd6v__Wqgmx-BRFPcedLwUuhsPTuMh4/edit?usp=sharing)
-- Project instructions: [here](https://github.com/snapfinger/Summer22_TrojanMap/blob/main/README.md)
+   - <a href="xihangde@usc.edu">Xihang Deng</a>
+- **Instructor:** [*Arash Saifhashemi*](https://www.linkedin.com/in/ourarash/)
+- **Video presentation:** 👉 [here](https://youtu.be/X-evqedsNYc)
+- **Project instructions:** 👉 [here](https://github.com/snapfinger/Summer22_TrojanMap/blob/main/README.md)
 
-**⚠️ Our project report is included in this README file. Examples, runtimes and discussions are included in each [Item descriptions](https://github.com/ee538/summer22-project-XihangDeng/#index-of-functionsalgorithms-implemented-in-this-project).**
+**⚠️ This repo is forked from the [original repo](https://github.com/ee538/summer22-project-XihangDeng), which is course-project-based and not visible to public. All the commits info are recorded in the original repo.**
 
-##
+**⚠️ The algorithms created in this repo are 100% ORIGINAL. Please DO NOT copy to your final project if you happen to take the same course. You will be DETECTED!!!⚠️**
+
+---
 
 ## TrojanMap
 
@@ -18,21 +32,21 @@ In this project, we implement a map application software called TrojanMap. The a
 <p align="center"><img src="img/TrojanMap.png" alt="Trojan" width="500" /></p>
 
 #### Index of functions/algorithms implemented in this project:
-- [Item 1: Auto-complete](https://github.com/ee538/summer22-project-XihangDeng#item-1-autocomplete-the-location-name-phase-1)
-- [Item 2: Find coordinates](https://github.com/ee538/summer22-project-XihangDeng/#item-2-1-find-the-places-coordinates-in-the-map-phase-1)
-- [Item 3: Get all categories](https://github.com/ee538/summer22-project-XihangDeng/#item-3-get-all-categories-phase-2)
-- [Item 4: Get all locations in a category](https://github.com/ee538/summer22-project-XihangDeng/#item-4-get-all-locations-in-a-category-phase-2)
-- [Item 5: Get locations using regular expressions](https://github.com/ee538/summer22-project-XihangDeng/#item-5-get-locations-using-a-regular-expression-phase-2)
-- [Item 6: Find the shortest path](https://github.com/ee538/summer22-project-XihangDeng/#item-6-calculateshortestpath-between-two-places-phase-2)
-- [Item 7: Cycle detection](https://github.com/ee538/summer22-project-XihangDeng/#item-7-cycle-detection-phase-2)
-- [Item 8: Toporlogical sorting](https://github.com/ee538/summer22-project-XihangDeng/#item-8-topological-sort-phase-2)
-- [Item 9: Travelling Trojan problem](https://github.com/ee538/summer22-project-XihangDeng/#item-9-the-traveling-trojan-problem-aka-traveling-salesman-phase-3)
-- [Item 10: Find nearby](https://github.com/ee538/summer22-project-XihangDeng/#item-10-find-nearby-phase-3)
+- [Item 1: Auto-complete](https://github.com/SeanXiaoby/TrojanMap_Sean#item-1-autocomplete-the-location-name-phase-1)
+- [Item 2: Find coordinates](https://github.com/SeanXiaoby/TrojanMap_Sean#item-2-1-find-the-places-coordinates-in-the-map-phase-1)
+- [Item 3: Get all categories](https://github.com/SeanXiaoby/TrojanMap_Sean#item-3-get-all-categories-phase-2)
+- [Item 4: Get all locations in a category](https://github.com/SeanXiaoby/TrojanMap_Sean#item-4-get-all-locations-in-a-category-phase-2)
+- [Item 5: Get locations using regular expressions](https://github.com/SeanXiaoby/TrojanMap_Sean#item-5-get-locations-using-a-regular-expression-phase-2)
+- [Item 6: Find the shortest path](https://github.com/SeanXiaoby/TrojanMap_Sean#item-6-calculateshortestpath-between-two-places-phase-2)
+- [Item 7: Cycle detection](https://github.com/SeanXiaoby/TrojanMap_Sean#item-7-cycle-detection-phase-2)
+- [Item 8: Toporlogical sorting](https://github.com/SeanXiaoby/TrojanMap_Sean#item-8-topological-sort-phase-2)
+- [Item 9: Travelling Trojan problem](https://github.com/SeanXiaoby/TrojanMap_Sean#item-9-the-traveling-trojan-problem-aka-traveling-salesman-phase-3)
+- [Item 10: Find nearby](https://github.com/SeanXiaoby/TrojanMap_Sean#item-10-find-nearby-phase-3)
 
 
 ##
 
-## The Data Structure
+## Data Structure
 
 Each point on the map is represented by the class **Node** shown below and defined in [trojanmap.h](src/lib/trojanmap.h).
 
